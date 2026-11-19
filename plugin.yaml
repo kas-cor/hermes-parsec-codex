@@ -1,0 +1,9 @@
+name: parsec-codex
+kind: model-provider
+version: 1.0.0
+description: >-
+  Routes the built-in openai-codex provider through the local parsec compression
+  proxy and restores live account model discovery (gpt-6.2 slugs) in the Hermes
+  model picker, without editing Hermes core.
+author: kas-cor
+license: MIT
